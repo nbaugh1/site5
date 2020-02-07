@@ -67,7 +67,7 @@ export const projectsData = [
 ];
 
 // BLOG  DATA
-export const blogData ={
+export const blogData = {
   info: 'test info',
 };
 
