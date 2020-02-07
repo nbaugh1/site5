@@ -20,8 +20,14 @@ export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
     "My name is Nick. I live in Brooklyn, New York. I'm a Fullstack Software Developer.",
-  paragraphTwo: 'My skills include:',
-  paragraphThree: '',
+  paragraphTwo: 'My  technical skills include:',
+  paragraphThree: 'JavaScript',
+  paragraphFour: 'Ruby',
+  paragraphFive: 'ReactJS/Redux',
+  paragraphSix: 'Ruby on Rails',
+  paragraphSeven: 'SQL',
+  paragraphEight: 'GraphQL',
+  paragraphNine: 'GatsbyJS',
   resume:
     'https://docs.google.com/document/d/1C7xzSib3-c18ZfZKj3NuliDL97Cxeueg4H_x1EzVDyY/edit?usp=sharing', // if no resume, the button will not show up
 };
@@ -59,9 +65,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: "Let's talk",
+  btn: 'Contact Me',
+  email: 'nbaugh1@gmail.com',
 };
 
 // FOOTER DATA
@@ -70,22 +76,17 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
+      url: 'https://twitter.com/Nbaugh1',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/nickbaughman/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/nbaugh1',
     },
   ],
 };
