@@ -11,17 +11,18 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm ",
   name: 'Nick',
-  subtitle: "I'm a software developer and this is my website.",
-  cta: 'Learn More',
+  subtitle: "I'm a software developer.",
+  cta: 'More',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
+  img: 'profile.jpeg',
+  paragraphOne: "My name is Nick. I live in Brooklyn, New York. I'm a Fullstack Software Developer.",
+  paragraphTwo: 'My skills include:',
   paragraphThree: '',
-  resume: 'https://docs.google.com/document/d/1C7xzSib3-c18ZfZKj3NuliDL97Cxeueg4H_x1EzVDyY/edit?usp=sharing', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/document/d/1C7xzSib3-c18ZfZKj3NuliDL97Cxeueg4H_x1EzVDyY/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,8 +33,8 @@ export const projectsData = [
     title: 'Where Did You Eat?',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://youtu.be/fngmTTybbvQ',
+    repo: 'https://github.com/nbaugh1/wdye', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
@@ -41,17 +42,17 @@ export const projectsData = [
     title: 'ReOrder',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://youtu.be/ZtmP3BlufDg',
+    repo: 'https://github.com/nbaugh1/reorder', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'project.jpg',
-    title: '',
+    title: 'Photobook',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://youtu.be/A3ZeoXQIIlw',
+    repo: 'https://github.com/nbaugh1/photo-book', // if no repo, the button will not show up
   },
 ];
 
