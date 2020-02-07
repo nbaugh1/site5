@@ -18,7 +18,8 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
-  paragraphOne: "My name is Nick. I live in Brooklyn, New York. I'm a Fullstack Software Developer.",
+  paragraphOne:
+    "My name is Nick. I live in Brooklyn, New York. I'm a Fullstack Software Developer.",
   paragraphTwo: 'My skills include:',
   paragraphThree: '',
   resume:
