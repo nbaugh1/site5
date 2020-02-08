@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
+import ReactTypingEffect from 'react-typing-effect';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
@@ -54,7 +55,7 @@ const About = () => {
                   {paragraphTwo ||
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
-                <p className="about-wrapper__info-text">
+                {/* <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
                 <p className="about-wrapper__info-text">
@@ -74,7 +75,9 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphNine || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
+                </p> */}
+                <ReactTypingEffect text={paragraphThree} className="about-wrapper__info-text" />
+                
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

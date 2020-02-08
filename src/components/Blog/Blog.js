@@ -17,5 +17,3 @@ const Blog = () => {
     </section>
   );
 };
-
-export default Blog;

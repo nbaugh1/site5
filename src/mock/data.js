@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Nick | Developer', // e.g: 'Name | Developer'
+  title: 'Nick | Software Developer', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Personal website for Nick Baughman', // e.g: Welcome to my website
 };
@@ -11,15 +11,15 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm ",
   name: 'Nick',
-  subtitle: "I'm a software developer.",
-  cta: 'More',
+  subtitle: 'I write code',
+  cta: 'Find Out More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
-    "My name is Nick. I live in Brooklyn, New York. I'm a Fullstack Software Developer.",
+    "My name is Nick. I live in Brooklyn, New York. I'm a Fullstack Software Developer. I'm expereinced in Object Oriented Programming, Desinging MVC based web apps, building and working with REST APIs. I'm also an armature photographer, artist, political junkie. Also, if you hire me you can play with my two dogs. ",
   paragraphTwo: 'My  technical skills include:',
   paragraphThree: '-JavaScript',
   paragraphFour: '-Ruby',
@@ -36,31 +36,37 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'wdye-img.png',
     title: 'Where Did You Eat?',
     info:
-      'Where Did You Eat is an application that helps a user keep track of the restaurants they’ve visited with help from Yelp’s API + Utilized Ruby on Rails to build an application following MVC design principles + Created a database using SQLite3 and ActiveRecord to handle data persistence and object associations + Used Google OmniAuth to implement third party log-in capabilities using Google + Used bcrypt Ruby gem to securely hash user passwords + Queried the Yelp API to fetch data about restaurants and enhance user experience by delivering deeper information',
-    info2: '',
+      'Where Did You Eat is an application that helps a user keep track of the restaurants they’ve visited with help from Yelp’s API.',
+    info2: '-Built with Ruby on Rails and SQLite3',
+    info3: '-Utilizes ActiveRecord, Google OmniAuth, bcrypt',
+    info4: '-Application demonstrates MVC design principles, RESTful APIs',
     url: 'https://youtu.be/fngmTTybbvQ',
     repo: 'https://github.com/nbaugh1/wdye', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'reorder-img.png',
     title: 'ReOrder',
     info:
-      'Reorder is an app used to create order requests, used to help with tracking and ordering inventory using mobile devices + Utilized React and Redux to build application frontend + Used Ruby on Rails to build backend API to handle asynchronous data fetches between the frontend and database + Created a database using PostgreSQL ensuring Heroku deployment compatibility + Styled with React Bootstrap via npm package',
-    info2: '',
+      'Reorder is an app used to create order requests, used to help with tracking and ordering inventory using mobile devices',
+    info2:
+      '-Reorder is a full-stack application with a ReactJS/Redux frontend and Ruby on Rails backend',
+    info3: '-Database built with PostgreSQL, deployed to Heroku, styled with React Bootstrap',
     url: 'https://youtu.be/ZtmP3BlufDg',
     repo: 'https://github.com/nbaugh1/reorder', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
+    img: 'photobook-img.png',
     title: 'Photobook',
     info:
-      'Photo Book is a web application that allows a users to add photos and comments to photos as a personal photography portfolio + Built front end of application with JavaScript enabling asynchronous data fetching + Used Ruby on Rails to build a backend API to handle AJAX requests from front end + Implemented utilization of Bootstrap cdn to streamline styling of UI + Built database using SQLite3 and ActiveRecord to manage object associations',
-    info2: '',
+      'Photo Book is a web application that allows a users to add photos and comments to photos as a personal photography portfolio',
+    info2:
+      '-A fullstack application with a vanilla JavaScript frontend and a Ruby on Rails backend',
+    info3: '-Utilizes ACtiveRecord, SQLite3, AJAX, Bootstrap',
     url: 'https://youtu.be/A3ZeoXQIIlw',
     repo: 'https://github.com/nbaugh1/photo-book', // if no repo, the button will not show up
   },
