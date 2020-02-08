@@ -28,6 +28,16 @@ export const aboutData = {
   paragraphSeven: '-SQL',
   paragraphEight: '-GraphQL',
   paragraphNine: '-GatsbyJS',
+  skills: [
+    '-JavaScript',
+    '-Ruby',
+    '-ReactJS/Redux',
+    '-Ruby on Rails',
+    '-SQL',
+    '-GraphQL',
+    '-GatsbyJS',
+    '-Sweet Beard',
+  ],
   resume:
     'https://docs.google.com/document/d/1C7xzSib3-c18ZfZKj3NuliDL97Cxeueg4H_x1EzVDyY/edit?usp=sharing', // if no resume, the button will not show up
 };

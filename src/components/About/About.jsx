@@ -12,14 +12,15 @@ const About = () => {
     img,
     paragraphOne,
     paragraphTwo,
-    paragraphThree,
-    paragraphFour,
-    paragraphFive,
-    paragraphSix,
-    paragraphSeven,
-    paragraphEight,
-    paragraphNine,
+    // paragraphThree,
+    // paragraphFour,
+    // paragraphFive,
+    // paragraphSix,
+    // paragraphSeven,
+    // paragraphEight,
+    // paragraphNine,
     resume,
+    skills,
   } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
@@ -55,29 +56,7 @@ const About = () => {
                   {paragraphTwo ||
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
-                {/* <p className="about-wrapper__info-text">
-                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphFive || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphSix || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphSeven || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphEight || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphNine || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
-                </p> */}
-                <ReactTypingEffect text={paragraphThree} className="about-wrapper__info-text" />
-                
+                <ReactTypingEffect text={skills} className="about-wrapper__info-text" />
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
