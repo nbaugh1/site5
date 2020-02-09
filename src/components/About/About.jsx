@@ -1,27 +1,15 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
-import ReactTypingEffect from 'react-typing-effect';
+// import ReactTypingEffect from 'react-typing-effect';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
 const About = () => {
+  // const module = typeof window !== `undefined` ? require("module") : null
   const { about } = useContext(PortfolioContext);
-  const {
-    img,
-    paragraphOne,
-    paragraphTwo,
-    // paragraphThree,
-    // paragraphFour,
-    // paragraphFive,
-    // paragraphSix,
-    // paragraphSeven,
-    // paragraphEight,
-    // paragraphNine,
-    resume,
-    skills,
-  } = about;
+  const { img, paragraphOne, paragraphTwo, resume, skills } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -56,7 +44,7 @@ const About = () => {
                   {paragraphTwo ||
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
-                <ReactTypingEffect text={skills} className="about-wrapper__info-text" />
+                {/* <ReactTypingEffect text={skills} className="about-wrapper__info-text" /> */}
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

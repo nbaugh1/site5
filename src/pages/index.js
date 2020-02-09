@@ -7,7 +7,7 @@ import '../style/main.scss';
 
 export default () => {
   const { title, lang, description } = headData;
-
+  // const module = typeof window !== `undefined` ? require("module") : null
   return (
     <>
       <Helmet>
