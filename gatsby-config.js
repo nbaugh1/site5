@@ -1,9 +1,14 @@
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://nbaugh1.github.io`,
+    description: ``,
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-remark-images`,
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -17,6 +22,13 @@ module.exports = {
       options: {
         name: `pages`,
         path: `${__dirname}/src/pages/`,
+      },
+    },
+    {
+      resolve: `gatsby-theme-blog`,
+      options: {
+        // basePath defaults to `/`
+        basePath: `/blog`,
       },
     },
     {
