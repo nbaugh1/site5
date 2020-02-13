@@ -1,7 +1,23 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://nbaugh1.github.io`,
-    description: ``,
+    description: `Personal website and blog for Nick Baughman, Software Developer`,
+    title: `NPB`,
+    author: `Nick Baughman`,
+    social: [
+      {
+        name: `Twitter`,
+        url: `https://twitter.com/nbaugh1`,
+      },
+      {
+        name: `GitHub`,
+        url: `https://github.com/nbaugh1`,
+      },
+      {
+        name: `LinkedIn`,
+        url: `https://www.linkedin.com/in/nickbaughman/`,
+      },
+    ],
   },
   plugins: [
     `gatsby-plugin-sass`,

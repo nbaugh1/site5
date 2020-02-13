@@ -9,13 +9,12 @@ export default ({ children, ...props }) => (
     <div>
       <div
         css={css({
-          //   maxWidth: `container`,
+          minWidth: `container`,
           mx: `auto`,
-          //   px: 3,
-          //   py: 4,
+          px: 2,
+          py: 3,
           textAlign: `left`,
-          borderStyle: `solid`,
-          margin: 0,
+          margin: 10,
         })}
       >
         {children}
