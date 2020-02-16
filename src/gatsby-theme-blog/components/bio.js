@@ -7,50 +7,18 @@
 
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { Styled, css, Flex } from 'theme-ui';
-import BioContent from './bio-content';
+// import { Styled, css, Flex } from 'theme-ui';
+// import BioContent from './bio-content';
 
 const Bio = () => {
-  // eslint-disable-next-line no-use-before-define
   const data = useStaticQuery(bioQuery);
   const {
     site: {
       siteMetadata: { author },
     },
-    // avatar,
   } = data;
-
-  return (
-    <Flex css={css({ mb: 4, alignItems: `center` })}>
-      {/* {avatar ? (
-        <Image
-          fixed={avatar.childImageSharp.fixed}
-          alt={author}
-          css={css({
-            mr: 2,
-            mb: 0,
-            width: 48,
-            minWidth: 48,
-            borderRadius: 99999,
-          })}
-        />
-      ) : (
-        <div
-          css={css({
-            mr: 2,
-            mb: 0,
-            width: 48,
-            minWidth: 48,
-            borderRadius: 99999,
-          })}
-          role="presentation"
-        />
-      )} */}
-      <Styled.div>
-        <BioContent author={author} />
-      </Styled.div>
-    </Flex>
-  );
+  console.log(data.siteMetadata.author)
+  return <h4>TESTING BIO {data.siteMetadata.author}</h4>;
 };
 
 const bioQuery = graphql`
