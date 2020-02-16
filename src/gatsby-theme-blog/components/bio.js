@@ -17,8 +17,8 @@ const Bio = () => {
       siteMetadata: { author },
     },
   } = data;
-  console.log(data.siteMetadata.author)
-  return <h4>TESTING BIO {data.siteMetadata.author}</h4>;
+  
+  return <h4> </h4>;
 };
 
 const bioQuery = graphql`
