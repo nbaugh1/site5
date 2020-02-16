@@ -11,13 +11,14 @@ import { useStaticQuery, graphql } from 'gatsby';
 // import BioContent from './bio-content';
 
 const Bio = () => {
+  // eslint-disable-next-line no-use-before-define
   const data = useStaticQuery(bioQuery);
   const {
     site: {
+      // eslint-disable-next-line no-unused-vars
       siteMetadata: { author },
     },
   } = data;
-  
   return <h4> </h4>;
 };
 

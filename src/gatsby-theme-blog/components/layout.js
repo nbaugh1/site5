@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import { css, Styled } from 'theme-ui';
+// import { css, Styled } from 'theme-ui';
 import Header from './header';
+// import '../../style/main.scss';
 
 export default ({ children, ...props }) => (
   <Styled.root>
