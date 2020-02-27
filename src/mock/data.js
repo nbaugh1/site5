@@ -19,8 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
-    "My name is Nick. I live in Brooklyn, New York. I'm a Fullstack Software Developer. I'm expereinced in Object Oriented Programming, Desinging MVC based web apps, building and working with REST APIs. I'm also an armature photographer, artist, political junkie. Also, if you hire me you can play with my two dogs. ",
-  paragraphTwo: 'My  technical skills include:',
+    "My name is Nick. I live in Brooklyn, New York. I'm a Fullstack Software Developer. I'm experienced in Object Oriented Programming, Designing MVC based web apps, building and working with REST APIs. I'm also an armature photographer, artist, political junkie. Also, if you hire me you can play with my two dogs. ",
+  paragraphTwo: 'Click the button below to see my resume and a summary of my technical skills',
   paragraphThree: '-JavaScript',
   paragraphFour: '-Ruby',
   paragraphFive: '-ReactJS/Redux',
@@ -76,7 +76,7 @@ export const projectsData = [
       'Photo Book is a web application that allows a users to add photos and comments to photos as a personal photography portfolio',
     info2:
       '-A fullstack application with a vanilla JavaScript frontend and a Ruby on Rails backend',
-    info3: '-Utilizes ACtiveRecord, SQLite3, AJAX, Bootstrap',
+    info3: '-Utilizes ActiveRecord, SQLite3, AJAX, Bootstrap',
     url: 'https://youtu.be/A3ZeoXQIIlw',
     repo: 'https://github.com/nbaugh1/photo-book', // if no repo, the button will not show up
   },
