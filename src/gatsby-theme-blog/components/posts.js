@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React, { Fragment } from 'react';
 import { Link } from 'gatsby';
 import { Styled, css } from 'theme-ui';
@@ -10,14 +11,15 @@ const Posts = ({ location, posts, siteTitle, socialLinks }) => (
   <Layout location={location} title={siteTitle}>
     <main>
       {posts.map(({ node }) => {
-        const title = node.title || node.slug
-        const keywords = node.keywords || []
+        const title = node.title || node.slug;
+        const keywords = node.keywords || [];
         return (
           <Fragment key={node.slug}>
             {/* <SEO title="Home" keywords={keywords} /> */}
-            <div>
+            <div className="container">
               <Styled.h2
                 css={css({
+                  textAlign: 'left',
                   mb: 1,
                 })}
               >
@@ -25,6 +27,7 @@ const Posts = ({ location, posts, siteTitle, socialLinks }) => (
                   as={Link}
                   css={css({
                     textDecoration: `none`,
+                    textAlign: 'left',
                   })}
                   to={node.slug}
                 >
@@ -35,11 +38,11 @@ const Posts = ({ location, posts, siteTitle, socialLinks }) => (
               <Styled.p>{node.excerpt}</Styled.p>
             </div>
           </Fragment>
-        )
+        );
       })}
     </main>
     {/* <Footer socialLinks={socialLinks} /> */}
   </Layout>
-)
+);
 
 export default Posts;
